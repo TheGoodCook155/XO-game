@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <StackPane prefHeight="600.0" prefWidth="600.0">
+            <children>
+                <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="TOP_LEFT" />
+                <Rectangle fx:id="rect5" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="TOP_CENTER" />
+                <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="TOP_RIGHT" />
+                <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="CENTER_LEFT" />
+                <Rectangle fx:id="rect6" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="CENTER_RIGHT" />
+                <Rectangle fx:id="rect7" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="BOTTOM_LEFT" />
+                <Rectangle fx:id="rect8" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="BOTTOM_CENTER" />
+                <Rectangle fx:id="rect9" arcHeight="5.0" arcWidth="5.0" fill="#00a0ff" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" StackPane.alignment="BOTTOM_RIGHT" />
+                <Text fx:id="text2" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.0" StackPane.alignment="TOP_CENTER">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets left="10.0" top="35.0" />
+                    </StackPane.margin>
+                </Text>
+                <Text fx:id="text3" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.0" StackPane.alignment="TOP_RIGHT">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets top="35.0" />
+                    </StackPane.margin>
+                </Text>
+                <Text fx:id="text4" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.0">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                </Text>
+                <Text fx:id="text5" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.0" StackPane.alignment="CENTER_LEFT">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                </Text>
+                <Text fx:id="text6" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.0" StackPane.alignment="CENTER_RIGHT">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                </Text>
+                <Text fx:id="text7" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="191.0" StackPane.alignment="BOTTOM_LEFT">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets bottom="35.0" left="5.0" />
+                    </StackPane.margin>
+                </Text>
+                <Text fx:id="text8" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.0" StackPane.alignment="BOTTOM_RIGHT">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets bottom="35.0" left="5.0" />
+                    </StackPane.margin>
+                </Text>
+                <Text fx:id="text9" onMouseEntered="#mousePress" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="185.0" StackPane.alignment="BOTTOM_CENTER">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets bottom="35.0" left="5.0" right="5.0" />
+                    </StackPane.margin>
+                </Text>
+                <Text fx:id="text1" onMouseEntered="#mousePress" rotate="90.0" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.0" StackPane.alignment="TOP_LEFT">
+                    <font>
+                        <Font size="96.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets top="35.0" />
+                    </StackPane.margin>
+                    <rotationAxis>
+                        <Point3D />
+                    </rotationAxis>
+                </Text>
+            </children>
+        </StackPane>
+    </children>
+</Pane>
